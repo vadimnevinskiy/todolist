@@ -17,8 +17,6 @@ function App() {
                 <div className="container">
                     <Route component={TodoListPage} path={'/'} exact />
                     <Route component={AboutPage} path={'/about'} />
-                    {/*<TodoForm onAdd={addHandler}/>*/}
-                    {/*<TodoList todos={todos} onRemove={removeHandler} onToggle={toggleHandler}/>*/}
                 </div>
             </div>
         </BrowserRouter>

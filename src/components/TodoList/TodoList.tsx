@@ -5,7 +5,6 @@ type TodoListProps = {
     todos: ITodo[]
     onRemove: (id: number) => void
     onToggle: (id: number) => void
-    // onToggle(id: number): void
 }
 
 export const TodoList: React.FunctionComponent<TodoListProps> = ({todos, onRemove, onToggle}) => {
